@@ -6,6 +6,6 @@ before_install:
   - docker build -t thewoodagency/docker-react-songs -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true thewoodagency/docker-react-songs npm run test
+  - docker run -e CI=true thewoodagency/docker-react-songs npm run test -- --coverage
 
 language: generic
