@@ -29,6 +29,7 @@ const App = () => {
     <div className="ui container grid">
       <div className="ui row">
         <div className="column eight wide">
+          <h1>Changes made from Feature Branch</h1>
           <p><a href="/counter.html">Redux Counter on Docker</a></p>
           <SongList songlist={songList} onSongClicked={onSongClicked} />
         </div>
